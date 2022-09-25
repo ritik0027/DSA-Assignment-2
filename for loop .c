@@ -1,36 +1,41 @@
-#include <iostream>
-#include <cstdio>
-using namespace std;
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
 
-int main() {
-    int a,b ; 
-    cin>> a >> b; 
-    for(a;a<=b;a++)
-    { if(a==1)
-    { cout<< "one" << endl;}
-     else if (a==2)
-    { cout<< "two" << endl;} 
-     else if (a==3)
-    { cout<< "three" << endl;}
-     else if (a==4)
-    { cout<< "four" << endl;} 
-     else if (a==5)
-    { cout<< "five" << endl;} 
-     else if (a==6)
-    { cout<< "six" << endl;} 
-     else if (a==7)
-    { cout<< "seven" << endl;} 
-     else if (a==8)
-    { cout<< "eight"<< endl;} 
-     else if (a==9)
-     { cout<< "nine"<< endl;}
+
+
+int main() 
+{ int a,b ;
+scanf("%d",&a);
+scanf("%d",&b);
+for(a;a<=b;a++)
+{   if(a==1)
+    {printf("one\n");}
+    else if(a==2)
+    {printf("two\n");}
+    else if(a==2)
+    {printf("two\n");}
+    else if(a==3)
+    {printf("three\n");}
+    else if(a==4)
+    {printf("four\n");}
+    else if(a==5)    
+    {printf("five\n");}
+    else if(a==6)
+    {printf("six\n");}
+    else if(a==7)
+    {printf("seven\n");}
+    else if(a==8)
+    {printf("eight\n");}
+    else if(a==9)
+    {printf("nine\n");}}
+    for(int i=10;i<=b;i++)
+    { if(i%2==0)
+      {printf("even\n");}
+     else
+        { printf("odd\n");}     
      }
-     for(int i=10;i<=b;i++)
-     {
-          if (i%2==0)
-          { cout<< "even"<< endl ;}   
-         else 
-         {cout<< "odd" << endl ;}
-    }
-    return 0;
+ return 0;
 }
+
